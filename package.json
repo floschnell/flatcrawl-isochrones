@@ -1,0 +1,21 @@
+{
+  "name": "isochrones",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "@turf/buffer": "^5.1.5",
+    "@turf/concave": "^6.0.5",
+    "@turf/destination": "^6.0.1",
+    "@turf/distance": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "@turf/point-grid": "^6.0.1",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "osrm": "^5.21.0"
+  }
+}
